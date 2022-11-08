@@ -80,14 +80,18 @@ a {
 .chat-sidebar h3 {
   margin-bottom: 15px;
 }
-
+.chat-sidebar ul {
+  max-height: 250px;
+  overflow: auto;
+  overflow-x: hidden;
+}
 .chat-sidebar ul li {
-  padding: 10px 0;
+  padding: 3px 0;
 }
 
 .chat-messages {
   padding: 30px;
-  max-height: 500px;
+  max-height: 450px;
   overflow-y: scroll;
 }
 
